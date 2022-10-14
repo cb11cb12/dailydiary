@@ -1,0 +1,32 @@
+.completed {
+  text-decoration: line-through;
+  color: rgb(173, 68, 68);
+}
+
+.not {
+  text-decoration: underline;
+}
+
+.login-logo {
+  max-width: 250px;
+  padding-bottom: 16px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .entry-button {
+  background: none;
+  border: none;
+} */
+
+/* //////////// Override Bulma styles //////////// */
+
+.input::placeholder,
+.select select::placeholder,
+.textarea::placeholder {
+  color: #161616 !important;
+}
