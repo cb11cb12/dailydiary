@@ -11,7 +11,12 @@ const mainRoutes = require('./routes/main')
 const journalRoutes = require('./routes/journal')
 const editRoutes = require('./routes/edit')
 
-require('dotenv').config({path: './config/.env'})
+
+//Use .env file in config folder
+// require('dotenv').config({path: './config/.env'})
+
+// Use .env file in root folder
+require('dotenv').config({path: '.env'})
 
 // Passport config
 require('./config/passport')(passport)
